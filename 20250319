@@ -1,0 +1,21 @@
+package asdf;
+
+public class aaa {
+	
+	public static void main(String[] args) {
+		//변수 
+		int num = 374;
+		
+		//계산
+		int units = num % 10;    //나머지 구하는 %
+		int tens = num / 100;    // 나머지 없이 나누는 /
+		int www = num - 367;     // 그냥 뺄셈
+		
+		
+		//출력
+System.out.printf("정수 %d의 각 자리 숫자의 총합 : %d", num, tens + units + www);
+
+	}
+}
+
+
